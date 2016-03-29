@@ -1,0 +1,17 @@
+{
+  "name": "express-promise-middleware",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "promise",
+    "middleware"
+  ],
+  "author": "Paulo Diovani <paulo@diovani.com>",
+  "license": "MIT"
+}
