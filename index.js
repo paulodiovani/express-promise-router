@@ -5,7 +5,7 @@ var app     = express();
 
 var router  = require('./lib/promise-router')(app);
 
-router.get('/', function(req, res) {
+router.get('/', function(req) {
   // create and defer a promise
   var deferred = Q.defer();
   setTimeout(function() {

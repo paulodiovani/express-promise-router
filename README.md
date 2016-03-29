@@ -26,7 +26,7 @@ var Tag = require('./models/tag');
 var router  = require('./lib/promise-router')(app);
 
 // now you can return promises directly
-router.get('/tags/:id', function(req, res) {
+router.get('/tags/:id', function(req) {
   return Tag.findOne({_id: req.params.id});
 });
 ```
