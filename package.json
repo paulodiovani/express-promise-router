@@ -13,5 +13,9 @@
     "middleware"
   ],
   "author": "Paulo Diovani <paulo@diovani.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "q": "^1.4.1"
+  }
 }
